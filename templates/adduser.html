@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+
+{% block title %} 
+    Add user to database
+{% endblock %}
+
+{% block content %}
+    <h1>Enter user details:</h1>
+
+    <form method="post">
+    <p><input type=text name=username placeholder="username">
+    <p><input type=text name=email placeholder="email">
+    <p><input type=submit value=Submit>
+    </form>
+
+
+    <p><a href="/logout">Logout</a></p>
+{% endblock %}
